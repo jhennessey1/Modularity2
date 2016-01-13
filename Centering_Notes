@@ -1,0 +1,7 @@
+Horizontal Centering
+
+Block level element - margin:auto centers it (just left and right)
+
+Inline element - text-align:center will center anything with text in it (text within divs within divs and so on)
+
+vertical centering - vertical-align: middle, top or bottom line-height: should be same as parent element

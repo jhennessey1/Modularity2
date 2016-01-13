@@ -1,0 +1,148 @@
+.list-item {
+	display: inline;
+}
+
+.center-hor img, .center-hor p, .center-hor ol {
+	display: inline-block;
+	text-align: center;
+	padding: 0px 15px;
+	vertical-align: top;
+}
+
+.outer {
+	height: 200px;
+	width: 75%;
+	margin: auto;
+	line-height: 200px;
+}
+
+.inner {
+	text-align: left;
+	vertical-align: middle;
+	line-height: 200px;
+}
+
+.inner ol {
+	text-align: left;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+.button {
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+#buy-now {
+	padding: 20px 75px;
+	font-size: 20px;
+}
+
+#learn-more {
+	padding: 10px 40px;
+}
+
+#ok {
+	padding: 5px 10px;
+	font-size: 10px;
+}
+
+.navbar {
+	background-color: pink;
+	border-radius: 5px;
+}
+
+.navbar li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 45px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar a:hover {
+	color: black;
+	text-decoration: underline;
+	background-color: yellow;
+}
+
+.pag li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px 10px;
+	font-size: 20px;
+	color: gray;
+	text-decoration: underline;
+}
+
+.pag a {
+	color: red;
+	font-size: 20px;
+}
+
+.pag a:first-child {
+	text-decoration: none;
+}
+
+.comment-stream .comments img {
+	float: left;
+	clear: left;
+	padding: 0px 10px 10px 0px;
+}
+
+.comment-stream .comments {
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.comment-stream .replies:first-child img {
+	float: left;
+	clear: none;
+}
+
+.comment-stream .replies img {
+	float: left;
+	clear: left;
+}
+
+.comment-stream .reply {
+	vertical-align: top;
+}
+
+.comment-stream time {
+	font-size: 12px;
+	color: gray;
+}
+
+.tabs div {
+	border: thin solid blue;
+	border-bottom: thin solid white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	margin: 0px 5px -2px 5px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.tabs li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.content {
+	border: thin solid blue;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#selected {
+	background-color: white;
+}
